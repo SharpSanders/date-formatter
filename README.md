@@ -1,81 +1,83 @@
 # Date Formatter
 
-A clean and simple JavaScript tool that displays today’s date in multiple formats.  
-Built to practice the **JavaScript Date Object**, time formatting, dynamic UI updates, and DOM event handling.
+A responsive JavaScript utility that formats the current date into multiple display styles.
 
-This project is part of my frontend development journey and demonstrates working with dates, dropdown menus, and responsive styling.
+Built to demonstrate working with the JavaScript `Date` object, dynamic DOM updates, and user-driven formatting logic.
 
----
-
-##  Features
-
-- Displays today’s date automatically on page load
-- Switch between different formats:
-  - **DD-MM-YYYY** (default)
-  - **YYYY-MM-DD**
-  - **MM-DD-YYYY with hours + minutes**
-- Clean UI with a custom SVG calendar icon
-- Lightweight & fast — built with only **HTML, CSS, and Vanilla JS**
-- Fully responsive across devices
-
----
-
-##  Screenshot
+## Live Demo
+https://sharpsanders.github.io/date-formatter/
 
 ![Date Formatter Screenshot](./img/Screenshot-date-formatter.png)
 
 ---
 
-##  Project Structure
+## Features
+
+- Automatically displays today’s date on page load
+- Switch between multiple formats:
+  - `DD-MM-YYYY` (default)
+  - `YYYY-MM-DD`
+  - `MM-DD-YYYY HH:MM`
+- Real-time UI updates based on user selection
+- Clean, responsive layout
+- Lightweight — no frameworks or libraries
+
+---
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## Concepts Demonstrated
+
+- Using the JavaScript `Date()` object
+- Extracting:
+  - Day
+  - Month
+  - Year
+  - Hours
+  - Minutes
+- Formatting date strings with padding logic
+- Event-driven DOM updates
+- Responsive UI design
+
+---
+
+## How It Works
+
+1. The app initializes the current date using `new Date()`.
+2. Individual date components are extracted.
+3. A format option is selected via dropdown.
+4. The selected format dynamically updates the rendered output.
+
+All formatting is handled client-side using pure JavaScript.
+
+---
+
+## Project Structure
 
 date-formatter/
-│── index.html # Structure and layout
-│── styles.css # Styling for the page
-│── script.js # Date logic & dropdown interaction
-└── README.md # Documentation
+├── index.html
+├── styles.css
+├── script.js
+└── img/
+└── Screenshot-date-formatter.png
 
-yaml
-Copy code
-
----
-
-##  What I Learned
-
-- Using the **JavaScript Date() object**
-- Extracting day, month, year, hours, and minutes
-- Updating the DOM based on user input events
-- Formatting dates using string manipulation
-- Styling dropdowns and responsive UI design
 
 ---
 
-##  Tech Stack
+## What I Practiced
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
-
----
-
-##  Live Demo (Optional)
-
-If you’d like, I can help deploy this via:
-
-- GitHub Pages  
-- Netlify  
-- Vercel  
-
-Just let me know and I’ll set it up.
+- Working with built-in browser date APIs
+- Formatting and padding values for consistent display
+- Updating UI state from dropdown input
+- Writing clean, modular JavaScript logic
 
 ---
 
-##  GitHub Repository
-
-https://github.com/SharpSanders/date-formatter
-
----
-
-##  Author
-
-Built by **Trevyn Sanders**  
-Developer • Gamer • Founder of Better Endeavors L.L.C.
+Built by Trevyn Sanders  
+GitHub: https://github.com/SharpSanders
